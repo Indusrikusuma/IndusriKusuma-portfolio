@@ -3,7 +3,7 @@ import { useEffect, useState, type ReactNode } from "react";
 import {
   Github, Linkedin, Mail, MapPin, Download, ArrowRight, ArrowUpRight,
   Code2, Database, Wrench, Globe, GraduationCap, Briefcase, Award, Trophy,
-  Sparkles, Moon, Sun, Send, FileText, CheckCircle2,
+  Sparkles, Moon, Sun, Send, FileText, CheckCircle2, Phone,
 } from "lucide-react";
 import profileImg from "@/assets/profile.jpg";
 
