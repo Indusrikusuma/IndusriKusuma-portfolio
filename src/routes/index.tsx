@@ -3,7 +3,7 @@ import { useEffect, useState, type ReactNode } from "react";
 import {
   Github, Linkedin, Mail, MapPin, Download, ArrowRight, ArrowUpRight,
   Code2, Database, Wrench, Globe, GraduationCap, Briefcase, Award, Trophy,
-  Sparkles, Moon, Sun, Send, FileText, CheckCircle2,
+  Sparkles, Moon, Sun, Send, FileText, CheckCircle2, Phone,
 } from "lucide-react";
 import profileImg from "@/assets/profile.jpg";
 
@@ -24,6 +24,10 @@ export const Route = createFileRoute("/")({
         "@type": "Person",
         name: "K. Indusri",
         jobTitle: "Computer Science Engineering Student",
+        email: "23h41a0598@bvcits.edu.in",
+        telephone: "+91-8919646170",
+        url: "https://linkedin.com/in/indusri-kusuma",
+        sameAs: ["https://linkedin.com/in/indusri-kusuma", "https://github.com/Indusrikusuma"],
         address: { "@type": "PostalAddress", addressRegion: "Andhra Pradesh", addressCountry: "IN" },
       }),
     }],
@@ -172,10 +176,10 @@ function Hero({ typed }: { typed: string }) {
           </Reveal>
           <Reveal delay={420}>
             <div className="mt-8 flex items-center gap-4 text-muted-foreground">
-              <a href="https://linkedin.com" target="_blank" rel="noreferrer" aria-label="LinkedIn" className="grid h-10 w-10 place-items-center rounded-full border border-border transition hover:bg-secondary hover:text-foreground">
+              <a href="https://linkedin.com/in/indusri-kusuma" target="_blank" rel="noreferrer" aria-label="LinkedIn" className="grid h-10 w-10 place-items-center rounded-full border border-border transition hover:bg-secondary hover:text-foreground">
                 <Linkedin className="h-4 w-4" />
               </a>
-              <a href="https://github.com" target="_blank" rel="noreferrer" aria-label="GitHub" className="grid h-10 w-10 place-items-center rounded-full border border-border transition hover:bg-secondary hover:text-foreground">
+              <a href="https://github.com/Indusrikusuma" target="_blank" rel="noreferrer" aria-label="GitHub" className="grid h-10 w-10 place-items-center rounded-full border border-border transition hover:bg-secondary hover:text-foreground">
                 <Github className="h-4 w-4" />
               </a>
               <span className="flex items-center gap-1.5 text-sm">
@@ -502,14 +506,17 @@ function Contact() {
           <div className="glass-panel rounded-2xl p-6">
             <h3 className="font-semibold">Reach me directly</h3>
             <div className="mt-5 space-y-3 text-sm">
-              <a href="mailto:indusri@example.com" className="flex items-center gap-3 rounded-xl border border-border bg-secondary/40 p-3 transition hover:bg-secondary">
-                <Mail className="h-4 w-4 text-brand" /> indusri@example.com
+              <a href="mailto:23h41a0598@bvcits.edu.in" className="flex items-center gap-3 rounded-xl border border-border bg-secondary/40 p-3 transition hover:bg-secondary">
+                <Mail className="h-4 w-4 text-brand" /> 23h41a0598@bvcits.edu.in
               </a>
-              <a href="https://linkedin.com" target="_blank" rel="noreferrer" className="flex items-center gap-3 rounded-xl border border-border bg-secondary/40 p-3 transition hover:bg-secondary">
-                <Linkedin className="h-4 w-4 text-brand" /> LinkedIn Profile
+              <a href="tel:+918919646170" className="flex items-center gap-3 rounded-xl border border-border bg-secondary/40 p-3 transition hover:bg-secondary">
+                <Phone className="h-4 w-4 text-brand" /> +91 89196 46170
               </a>
-              <a href="https://github.com" target="_blank" rel="noreferrer" className="flex items-center gap-3 rounded-xl border border-border bg-secondary/40 p-3 transition hover:bg-secondary">
-                <Github className="h-4 w-4 text-brand" /> GitHub Profile
+              <a href="https://linkedin.com/in/indusri-kusuma" target="_blank" rel="noreferrer" className="flex items-center gap-3 rounded-xl border border-border bg-secondary/40 p-3 transition hover:bg-secondary">
+                <Linkedin className="h-4 w-4 text-brand" /> linkedin.com/in/indusri-kusuma
+              </a>
+              <a href="https://github.com/Indusrikusuma" target="_blank" rel="noreferrer" className="flex items-center gap-3 rounded-xl border border-border bg-secondary/40 p-3 transition hover:bg-secondary">
+                <Github className="h-4 w-4 text-brand" /> github.com/Indusrikusuma
               </a>
               <div className="flex items-center gap-3 rounded-xl border border-border bg-secondary/40 p-3">
                 <MapPin className="h-4 w-4 text-brand" /> Andhra Pradesh, India
@@ -555,9 +562,9 @@ function Footer() {
       <div className="mx-auto flex max-w-6xl flex-col items-center justify-between gap-4 text-sm text-muted-foreground sm:flex-row">
         <div>© {new Date().getFullYear()} K. Indusri. Crafted with care.</div>
         <div className="flex items-center gap-3">
-          <a href="https://linkedin.com" target="_blank" rel="noreferrer" aria-label="LinkedIn" className="grid h-9 w-9 place-items-center rounded-full border border-border hover:text-foreground"><Linkedin className="h-4 w-4" /></a>
-          <a href="https://github.com" target="_blank" rel="noreferrer" aria-label="GitHub" className="grid h-9 w-9 place-items-center rounded-full border border-border hover:text-foreground"><Github className="h-4 w-4" /></a>
-          <a href="mailto:indusri@example.com" aria-label="Email" className="grid h-9 w-9 place-items-center rounded-full border border-border hover:text-foreground"><Mail className="h-4 w-4" /></a>
+          <a href="https://linkedin.com/in/indusri-kusuma" target="_blank" rel="noreferrer" aria-label="LinkedIn" className="grid h-9 w-9 place-items-center rounded-full border border-border hover:text-foreground"><Linkedin className="h-4 w-4" /></a>
+          <a href="https://github.com/Indusrikusuma" target="_blank" rel="noreferrer" aria-label="GitHub" className="grid h-9 w-9 place-items-center rounded-full border border-border hover:text-foreground"><Github className="h-4 w-4" /></a>
+          <a href="mailto:23h41a0598@bvcits.edu.in" aria-label="Email" className="grid h-9 w-9 place-items-center rounded-full border border-border hover:text-foreground"><Mail className="h-4 w-4" /></a>
         </div>
       </div>
     </footer>
