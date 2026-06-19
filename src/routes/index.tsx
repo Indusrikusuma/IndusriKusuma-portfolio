@@ -169,9 +169,9 @@ function Hero({ typed }: { typed: string }) {
               <a href="#contact" className="inline-flex items-center gap-2 rounded-full border border-border bg-card/60 px-5 py-3 text-sm font-semibold backdrop-blur transition hover:bg-secondary">
                 <Mail className="h-4 w-4" /> Contact Me
               </a>
-              <a href="#" className="inline-flex items-center gap-2 rounded-full border border-border bg-card/60 px-5 py-3 text-sm font-semibold backdrop-blur transition hover:bg-secondary">
-                <Download className="h-4 w-4" /> Resume
-              </a>
+              <button onClick={() => window.print()} className="no-print inline-flex items-center gap-2 rounded-full border border-border bg-card/60 px-5 py-3 text-sm font-semibold backdrop-blur transition hover:bg-secondary">
+                <Download className="h-4 w-4" /> Download PDF
+              </button>
             </div>
           </Reveal>
           <Reveal delay={420}>
