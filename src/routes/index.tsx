@@ -176,10 +176,10 @@ function Hero({ typed }: { typed: string }) {
           </Reveal>
           <Reveal delay={420}>
             <div className="mt-8 flex items-center gap-4 text-muted-foreground">
-              <a href="https://linkedin.com" target="_blank" rel="noreferrer" aria-label="LinkedIn" className="grid h-10 w-10 place-items-center rounded-full border border-border transition hover:bg-secondary hover:text-foreground">
+              <a href="https://linkedin.com/in/indusri-kusuma" target="_blank" rel="noreferrer" aria-label="LinkedIn" className="grid h-10 w-10 place-items-center rounded-full border border-border transition hover:bg-secondary hover:text-foreground">
                 <Linkedin className="h-4 w-4" />
               </a>
-              <a href="https://github.com" target="_blank" rel="noreferrer" aria-label="GitHub" className="grid h-10 w-10 place-items-center rounded-full border border-border transition hover:bg-secondary hover:text-foreground">
+              <a href="https://github.com/Indusrikusuma" target="_blank" rel="noreferrer" aria-label="GitHub" className="grid h-10 w-10 place-items-center rounded-full border border-border transition hover:bg-secondary hover:text-foreground">
                 <Github className="h-4 w-4" />
               </a>
               <span className="flex items-center gap-1.5 text-sm">
@@ -562,9 +562,9 @@ function Footer() {
       <div className="mx-auto flex max-w-6xl flex-col items-center justify-between gap-4 text-sm text-muted-foreground sm:flex-row">
         <div>© {new Date().getFullYear()} K. Indusri. Crafted with care.</div>
         <div className="flex items-center gap-3">
-          <a href="https://linkedin.com" target="_blank" rel="noreferrer" aria-label="LinkedIn" className="grid h-9 w-9 place-items-center rounded-full border border-border hover:text-foreground"><Linkedin className="h-4 w-4" /></a>
-          <a href="https://github.com" target="_blank" rel="noreferrer" aria-label="GitHub" className="grid h-9 w-9 place-items-center rounded-full border border-border hover:text-foreground"><Github className="h-4 w-4" /></a>
-          <a href="mailto:indusri@example.com" aria-label="Email" className="grid h-9 w-9 place-items-center rounded-full border border-border hover:text-foreground"><Mail className="h-4 w-4" /></a>
+          <a href="https://linkedin.com/in/indusri-kusuma" target="_blank" rel="noreferrer" aria-label="LinkedIn" className="grid h-9 w-9 place-items-center rounded-full border border-border hover:text-foreground"><Linkedin className="h-4 w-4" /></a>
+          <a href="https://github.com/Indusrikusuma" target="_blank" rel="noreferrer" aria-label="GitHub" className="grid h-9 w-9 place-items-center rounded-full border border-border hover:text-foreground"><Github className="h-4 w-4" /></a>
+          <a href="mailto:23h41a0598@bvcits.edu.in" aria-label="Email" className="grid h-9 w-9 place-items-center rounded-full border border-border hover:text-foreground"><Mail className="h-4 w-4" /></a>
         </div>
       </div>
     </footer>
