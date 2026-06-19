@@ -206,9 +206,6 @@ function Hero({ typed }: { typed: string }) {
           </Reveal>
           <Reveal delay={360}>
             <div className="mt-8 flex flex-wrap gap-3">
-              <button onClick={() => window.print()} className="no-print gradient-bg glow-shadow inline-flex items-center gap-2 rounded-full px-5 py-3 text-sm font-semibold text-white transition hover:scale-[1.02]">
-                <Download className="h-4 w-4" /> Download Resume
-              </button>
               <a href="#contact" className="inline-flex items-center gap-2 rounded-full border border-border bg-card/60 px-5 py-3 text-sm font-semibold backdrop-blur transition hover:bg-secondary">
                 <Mail className="h-4 w-4" /> Contact Me
               </a>
@@ -463,11 +460,6 @@ function Projects() {
                   </li>
                 ))}
               </ul>
-              <div className="mt-7 flex flex-wrap gap-3">
-                <a href="https://github.com/Indusrikusuma" target="_blank" rel="noreferrer" className="gradient-bg inline-flex items-center gap-2 rounded-full px-4 py-2 text-sm font-semibold text-white">
-                  View Code <ArrowUpRight className="h-4 w-4" />
-                </a>
-              </div>
             </div>
             <div className="relative min-h-[260px] gradient-bg p-8">
               <div className="absolute inset-0 opacity-30" style={{
@@ -511,9 +503,6 @@ function Projects() {
                   </li>
                 ))}
               </ul>
-              <a href="https://github.com/Indusrikusuma" target="_blank" rel="noreferrer" className="mt-5 inline-flex items-center gap-1.5 text-sm font-semibold text-brand hover:underline">
-                View on GitHub <ArrowUpRight className="h-4 w-4" />
-              </a>
             </div>
           ))}
         </div>
