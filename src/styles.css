@@ -158,3 +158,21 @@
 @utility animate-fade-up {
   animation: fade-up 0.7s ease-out both;
 }
+
+@media print {
+  .no-print { display: none !important; }
+  html, body {
+    background: #fff !important;
+    color: #000 !important;
+  }
+  * {
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+    animation: none !important;
+    transition: none !important;
+  }
+  section { page-break-inside: avoid; padding-top: 1rem !important; padding-bottom: 1rem !important; }
+  a { text-decoration: none !important; color: inherit !important; }
+  .glass-panel { background: #fff !important; backdrop-filter: none !important; border-color: #e5e7eb !important; }
+  @page { size: A4; margin: 12mm; }
+}

@@ -106,7 +106,7 @@ const NAV = [
 
 function Nav({ dark, toggle }: { dark: boolean; toggle: () => void }) {
   return (
-    <header className="fixed top-4 left-1/2 z-50 w-[min(96%,1100px)] -translate-x-1/2">
+    <header className="no-print fixed top-4 left-1/2 z-50 w-[min(96%,1100px)] -translate-x-1/2">
       <nav className="glass-panel flex items-center justify-between rounded-full px-4 py-2.5 sm:px-6">
         <a href="#top" className="flex items-center gap-2 font-display font-bold">
           <span className="grid h-8 w-8 place-items-center rounded-lg gradient-bg text-white shadow-md">KI</span>
@@ -169,9 +169,9 @@ function Hero({ typed }: { typed: string }) {
               <a href="#contact" className="inline-flex items-center gap-2 rounded-full border border-border bg-card/60 px-5 py-3 text-sm font-semibold backdrop-blur transition hover:bg-secondary">
                 <Mail className="h-4 w-4" /> Contact Me
               </a>
-              <a href="#" className="inline-flex items-center gap-2 rounded-full border border-border bg-card/60 px-5 py-3 text-sm font-semibold backdrop-blur transition hover:bg-secondary">
-                <Download className="h-4 w-4" /> Resume
-              </a>
+              <button onClick={() => window.print()} className="no-print inline-flex items-center gap-2 rounded-full border border-border bg-card/60 px-5 py-3 text-sm font-semibold backdrop-blur transition hover:bg-secondary">
+                <Download className="h-4 w-4" /> Download PDF
+              </button>
             </div>
           </Reveal>
           <Reveal delay={420}>
