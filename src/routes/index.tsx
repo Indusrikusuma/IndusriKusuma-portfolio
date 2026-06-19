@@ -463,11 +463,6 @@ function Projects() {
                   </li>
                 ))}
               </ul>
-              <div className="mt-7 flex flex-wrap gap-3">
-                <a href="https://github.com/Indusrikusuma" target="_blank" rel="noreferrer" className="gradient-bg inline-flex items-center gap-2 rounded-full px-4 py-2 text-sm font-semibold text-white">
-                  View Code <ArrowUpRight className="h-4 w-4" />
-                </a>
-              </div>
             </div>
             <div className="relative min-h-[260px] gradient-bg p-8">
               <div className="absolute inset-0 opacity-30" style={{
