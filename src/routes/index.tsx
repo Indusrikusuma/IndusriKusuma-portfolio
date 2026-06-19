@@ -206,9 +206,6 @@ function Hero({ typed }: { typed: string }) {
           </Reveal>
           <Reveal delay={360}>
             <div className="mt-8 flex flex-wrap gap-3">
-              <button onClick={() => window.print()} className="no-print gradient-bg glow-shadow inline-flex items-center gap-2 rounded-full px-5 py-3 text-sm font-semibold text-white transition hover:scale-[1.02]">
-                <Download className="h-4 w-4" /> Download Resume
-              </button>
               <a href="#contact" className="inline-flex items-center gap-2 rounded-full border border-border bg-card/60 px-5 py-3 text-sm font-semibold backdrop-blur transition hover:bg-secondary">
                 <Mail className="h-4 w-4" /> Contact Me
               </a>
