@@ -506,9 +506,6 @@ function Projects() {
                   </li>
                 ))}
               </ul>
-              <a href="https://github.com/Indusrikusuma" target="_blank" rel="noreferrer" className="mt-5 inline-flex items-center gap-1.5 text-sm font-semibold text-brand hover:underline">
-                View on GitHub <ArrowUpRight className="h-4 w-4" />
-              </a>
             </div>
           ))}
         </div>
