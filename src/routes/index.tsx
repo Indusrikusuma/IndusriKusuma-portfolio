@@ -128,7 +128,7 @@ function Portfolio() {
       <Experience />
       <Certifications />
       <GithubStats />
-      <Testimonials />
+      
       <Objective />
       <Achievements />
       <Contact />
