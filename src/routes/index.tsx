@@ -128,7 +128,7 @@ function Portfolio() {
       <Experience />
       <Certifications />
       <GithubStats />
-      <Testimonials />
+      
       <Objective />
       <Achievements />
       <Contact />
@@ -212,6 +212,13 @@ function Hero({ typed }: { typed: string }) {
               <a href="#projects" className="inline-flex items-center gap-2 rounded-full border border-border bg-card/60 px-5 py-3 text-sm font-semibold backdrop-blur transition hover:bg-secondary">
                 View Projects <ArrowRight className="h-4 w-4" />
               </a>
+              <button
+                type="button"
+                onClick={() => typeof window !== "undefined" && window.print()}
+                className="inline-flex items-center gap-2 rounded-full gradient-bg px-5 py-3 text-sm font-semibold text-white shadow-lg shadow-brand/20 transition hover:opacity-90"
+              >
+                <Download className="h-4 w-4" /> Download Resume
+              </button>
             </div>
           </Reveal>
           <Reveal delay={420}>
